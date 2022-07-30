@@ -1,0 +1,297 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.cs">
+  <script src="https://kit.fontawesome.com/f814e68ecc.js" crossorigin="anonymous"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+ 
+  </head>
+  
+  
+
+ <body>
+  
+   
+   
+<style>
+h2 {text-align: center;}
+body {
+ 
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 100px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 175px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 235px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 300px;
+  background-color: #FFDF00 ;
+}
+h1 {
+  background-image: url(Ok.jpg);
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 20px;
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+  
+  
+}
+
+p {
+  font-family: pacifico;
+  font-size: 20px;
+  word-wrap: break-word;
+  
+}
+img {
+  Border-radius: 30px;
+  ;
+}
+iframe{
+  Border-radius: 30px;
+}
+script{
+  align:"center";
+}
+
+#greenrobot {
+  height: 500px;
+  position: absolute;
+  left: -200px;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% { left: -200px }
+  50% { left: 0 }
+  100% { left: -200px }
+}
+
+#spacerobot {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  animation: across 5s infinite alternate;
+}
+
+@keyframes across {
+  0% { left: 0 }
+  100% { left: 90% }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.card {
+  
+  transition: 0.3s;
+  width: 90%;
+   margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+#more {display: none;}
+/* <- Demo Stuff Start */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+
+
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Magic Stuff End -> */
+
+
+</style>
+
+
+
+
+
+   <a class="active" href="#"><i class="fas fa-sliders-h"></i><space></space>Settings</a>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><img src="Screenshot 2022-07-30 195746.jpg" width="100px" hieght=""></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="Page2.html" class="w3-bar-item w3-button">About</a>
+      
+      <a href="Download.html" class="w3-bar-item w3-button">Download</a>
+       <a href="Settings.html" class="w3-bar-item w3-button">Settings</a>
+     
+  
+    </div>
+  </div>
+</div>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<div class="card">
+<h1> About this website</h1>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about"><img src="https://img.icons8.com/office/48/000000/whatsapp--v3.png"/></a>
+  <a href="#" id="blog"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
+  <br>
+  <a href="#" id="projects"><img src="https://img.icons8.com/color/48/000000/google-forms-new-logo-1.png"/></a>
+  <a href="#" id="contact"><img src="https://img.icons8.com/ios/46/000000/domain.png"/></a>
+  </div>
+ 
+<p>This website is made for Advertisng our drone. Our company was launched on November 2020. This startup was created by Navya Arora,Akshat Hatwal and Avaneesh Bhatnagar of Tagore International School,Vasant Vihar,New Delhi.  
+Drones and UAVs bring about the intricate details that go into the working of this field of state-run undertakings. Applicable for aerial surveillance and monitoring operations, drones use their robust features to serve land inspection and observation purposes.</span></p>
+
+</div>
+
+  
+</body>
+</html>
